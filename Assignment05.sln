@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Assignment05", "Assignment05\Assignment05.dtproj", "{60FF7D25-31D9-4E08-AA11-CDF3C91F81B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyValidator", "CurrencyValidator\CurrencyValidator.csproj", "{5699AFD7-258F-4BC8-A570-F2FC83A8184C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyValidatorConsoleApp", "CurrencyValidatorConsoleApp\CurrencyValidatorConsoleApp.csproj", "{49870B15-E29C-4570-B2B6-7855BF212129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PowerShellScripts", "PowerShellScripts", "{AFC8B2D0-477D-4C71-A892-F74A1DC65EA8}"
+	ProjectSection(SolutionItems) = preProject
+		PowerShellScripts\CurrencyValidatorAndProcessor.ps1 = PowerShellScripts\CurrencyValidatorAndProcessor.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{11D7205E-A17B-4FA9-B9EE-0C82E46B033E}"
+	ProjectSection(SolutionItems) = preProject
+		Documents\A05EmilijaDimikj.docx = Documents\A05EmilijaDimikj.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PythonScripts", "PythonScripts", "{34BCD7E5-1F75-44B0-8484-BDC92857E970}"
+	ProjectSection(SolutionItems) = preProject
+		PythonScripts\CurrencyValidatorAndProcessor.py = PythonScripts\CurrencyValidatorAndProcessor.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SourceDataFiles", "SourceDataFiles", "{C8090A56-97FB-42D5-A37D-CD15DC9F533A}"
+	ProjectSection(SolutionItems) = preProject
+		SourceDataFiles\CurrencyList.txt = SourceDataFiles\CurrencyList.txt
+		SourceDataFiles\ExchangeRates.csv = SourceDataFiles\ExchangeRates.csv
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLScripts", "SQLScripts", "{D6E5D614-A5B4-4C1E-B950-AB7DD2696D5E}"
+	ProjectSection(SolutionItems) = preProject
+		SQLScripts\GetProductsScript.sql = SQLScripts\GetProductsScript.sql
+		SQLScripts\StagingTablesScript.sql = SQLScripts\StagingTablesScript.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60FF7D25-31D9-4E08-AA11-CDF3C91F81B2}.Debug|Any CPU.ActiveCfg = Development
+		{60FF7D25-31D9-4E08-AA11-CDF3C91F81B2}.Debug|Any CPU.Build.0 = Development
+		{60FF7D25-31D9-4E08-AA11-CDF3C91F81B2}.Development|Any CPU.ActiveCfg = Development
+		{60FF7D25-31D9-4E08-AA11-CDF3C91F81B2}.Development|Any CPU.Build.0 = Development
+		{60FF7D25-31D9-4E08-AA11-CDF3C91F81B2}.Release|Any CPU.ActiveCfg = Development
+		{60FF7D25-31D9-4E08-AA11-CDF3C91F81B2}.Release|Any CPU.Build.0 = Development
+		{5699AFD7-258F-4BC8-A570-F2FC83A8184C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5699AFD7-258F-4BC8-A570-F2FC83A8184C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5699AFD7-258F-4BC8-A570-F2FC83A8184C}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{5699AFD7-258F-4BC8-A570-F2FC83A8184C}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{5699AFD7-258F-4BC8-A570-F2FC83A8184C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5699AFD7-258F-4BC8-A570-F2FC83A8184C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49870B15-E29C-4570-B2B6-7855BF212129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49870B15-E29C-4570-B2B6-7855BF212129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49870B15-E29C-4570-B2B6-7855BF212129}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{49870B15-E29C-4570-B2B6-7855BF212129}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{49870B15-E29C-4570-B2B6-7855BF212129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49870B15-E29C-4570-B2B6-7855BF212129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D430DD4-E557-40C4-BD42-834064547CEF}
+	EndGlobalSection
+EndGlobal
